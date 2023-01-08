@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+html {
+   box-sizing: border-box;
+}
+
+img {
+   width: 150px;
+   height: 100px;
+   margin: 30px 0px 37px 32px;
+}
+
+h1 {
+   font-family: 'Ubuntu', sans-serif;
+   margin: auto 146px;
+}
+
+.contain {
+   background-color: #f2f2f2;
+   border: -117px solid #176fa4;
+   box-shadow: 3px 6px 20px 0px #b3b9bf;
+   border-radius: 14px;
+   padding: 10px;
+   margin: 100px auto;
+   width: 400px;
+   height: 850px;
+}
+
+form {
+   font-family: 'Ubuntu', sans-serif;
+}
+
+#one-login,
+#pass-login,
+#one {
+   display: flex;
+   justify-content: center;
+   margin: 1px auto;
+}
+
+input[type=submit] {
+   background-color: #0A3250;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+}
+input[type=text] {
+   background-color: #9cc6e7;
+   color: rgb(82, 79, 79);
+   font-weight: bold;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+input[type=email] {
+   background-color: #9cc6e7;
+   color: rgb(82, 79, 79);
+   font-weight: bold;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+input[type=password] {
+   background-color: #9cc6e7;
+   color: rgb(82, 79, 79);
+   font-weight: bold;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+input[type=email]:hover {
+   box-shadow: 3px 3px 8px 1px #8c99a6;
+   transition: box-shadow .4s ease-in-out .0s;
+   border: 1px solid #007bff;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+input[type=password]:hover {
+   box-shadow: 3px 3px 8px 1px #8c99a6;
+   transition: box-shadow .3s ease-in-out 0s;
+   border: 1px solid #007bff;
+   border-radius: 6px;
+   cursor: pointer;
+}
+input[type=text]:hover {
+   box-shadow: 3px 3px 8px 1px #8c99a6;
+   transition: box-shadow .3s ease-in-out 0s;
+   border: 1px solid #007bff;
+   border-radius: 6px;
+   cursor: pointer;
+}

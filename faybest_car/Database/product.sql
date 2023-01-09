@@ -1,0 +1,17 @@
+use faybestcar;
+ 
+create table product(
+	id INT UNSIGNED AUTO_INCREMENT,
+	name VARCHAR(255) NOT NULL,
+	price VARCHAR(255) NOT NULL,
+	type_car VARCHAR(255) NOT NULL,
+	km VARCHAR(255) NOT NULL,
+	transi VARCHAR(255) NOT NULL,
+	sport VARCHAR(255) NOT NULL,
+	color VARCHAR(255) NOT NULL,
+	year int not null UNSIGNED,
+	used VARCHAR(255) NOT NULL,
+	star VARCHAR(255) NOT NULL,
+	location VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
